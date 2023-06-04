@@ -1,0 +1,152 @@
+.section1{
+    width: 100%;
+    height: 550px;
+
+  &-container{
+    width: 90%;
+    height: 100%;
+        display: flex;
+
+    &-card1{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 30px;
+&-img{
+    width: 100%;
+    height: 50%;
+
+
+    &-src{
+        width: 100%;
+    }
+}
+&-text{
+    width: 100%;
+    height: 20%;
+    font-family: RF Dewi Extended;
+font-size: 18px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+
+
+
+}
+
+    }
+     &-card2{
+        row-gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        &-span{
+            width: 40%;
+            height: 10%;
+            font-family: Object Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0px;
+            text-align: center;
+            opacity: 0.3;   
+        }
+        &-title{
+            width: 40%;
+            height: 20%;
+            font-family: Object Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: center;
+
+        }
+        &-text{
+            width: 40%;
+            height: 20%; 
+            font-family: Object Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+ opacity: 0.9;
+        }
+        &-btn{
+            height: 48px;
+width: 168px;
+left: 520px;
+top: 694px;
+border-radius: 12px;
+background: #77C613;
+color: white;
+border: none;
+        }
+        &-span2{
+            width: 40%;
+            height: 10%;
+            font-family: Object Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0px;
+            text-align: center;
+            opacity: 0.3;
+        }
+    }
+    
+  }  
+}
+@media  screen and (max-width: 768px) {
+    .section1{
+        width: 100%;
+    height: 550px;
+&-container{
+    width: 90%;
+    height: 100%;
+    &-card1{
+        width: 50%;
+        height: 100%;
+        &-img{
+            width: 100%;
+    height: 25%;  
+        }
+        &-text{
+font-size: 12px;
+        }
+    }
+    &-card2{
+        width: 50%;
+        height: 90%;
+        &-title{
+            font-size: 18px;
+        }
+        &-text{
+            font-size: 12px;
+        }
+        &-span{
+            font-size: 10px;
+
+        }
+        &-span2{
+            font-size: 10px;
+
+        }
+        &-btn{
+            height: 40px;
+            width: 160px;
+            font-size: 11px;
+            
+        }
+    }
+}
+    }
+}
